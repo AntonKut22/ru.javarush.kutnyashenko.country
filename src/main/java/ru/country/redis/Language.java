@@ -1,13 +1,10 @@
 package ru.country.redis;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 
-@Getter
-@Setter
+@Data
 public class Language {
     private String language;
     private Boolean isOfficial;

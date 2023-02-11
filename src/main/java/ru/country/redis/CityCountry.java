@@ -1,15 +1,12 @@
 package ru.country.redis;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 import ru.country.entity.Continent;
 
 import java.math.BigDecimal;
 import java.util.Set;
 
-@Getter
-@Setter
+@Data
 public class CityCountry {
     private Integer id;
 
@@ -35,5 +32,4 @@ public class CityCountry {
 
     private Set<Language> languages;
 
-    //Getters and Setters omitted
 }

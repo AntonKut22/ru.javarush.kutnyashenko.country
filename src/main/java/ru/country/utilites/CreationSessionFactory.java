@@ -1,4 +1,4 @@
-package ru.country;
+package ru.country.utilites;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

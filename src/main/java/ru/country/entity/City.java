@@ -9,13 +9,10 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 @Table(schema = "world", name = "city")
-@Getter
-@Setter
+@Data
 public class City {
 
     @Id

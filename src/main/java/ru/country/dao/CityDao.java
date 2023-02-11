@@ -1,6 +1,5 @@
 package ru.country.dao;
 
-import org.hibernate.query.Query;
 import ru.country.entity.City;
 
 import java.util.List;
