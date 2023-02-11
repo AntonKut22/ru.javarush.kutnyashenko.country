@@ -1,5 +1,7 @@
 # the final task of the module "working with databases" of the javarush university project
 
+## the purpose of the project is to determine the difference in the time of receiving requests when using Redis and MySQL
+
 
 ### to run the application you need to follow the following steps:
 
